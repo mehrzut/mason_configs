@@ -1,0 +1,14 @@
+# Ignore everything
+/*
+
+# Allow files in the root directory
+!/*
+
+# Ignore all directories
+*/
+mason-lock.json
+.DS_Store
+
+# Un-ignore the 'bricks' directory and its contents
+!bricks/
+!bricks/**
